@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb%2C100:8957e5&height=170&section=header&text=Si%20Hyeon%20Lee&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Building%20internal%20tools%20with%20AI%20agents&descSize=17&descAlignY=60">
-  <img alt="Si Hyeon Lee" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb%2C100:8957e5&height=170&section=header&text=Si%20Hyeon%20Lee&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Building%20internal%20tools%20with%20AI%20agents&descSize=17&descAlignY=60">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb%2C100:8957e5&height=170&section=header&text=Si%20Hyeon%20Lee&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Building%20internal%20tools%20with%20AI%20agents&descSize=17&descAlignY=60&animation=none">
+  <img alt="Si Hyeon Lee" width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1f6feb%2C100:8957e5&height=170&section=header&text=Si%20Hyeon%20Lee&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=Building%20internal%20tools%20with%20AI%20agents&descSize=17&descAlignY=60&animation=none">
 </picture>
 
 세무법인 사내 개발자. AI 에이전트로 실무 도구를 만듭니다.<br>
