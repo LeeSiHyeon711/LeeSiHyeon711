@@ -15,16 +15,18 @@
 - **AI Morning Brief** — AI 뉴스를 매일 수집·분석해 Discord로 보내는 파이프라인. 2026년 6월부터 매일 돌고 있습니다.
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph G1[방향 결정 · 사람이 승인]
+        direction LR
         A[상담 · PRD] --> B[디자인] --> C[설계 · FEAT]
     end
     subgraph G2[기계적 실행 · 자동]
+        direction LR
         D[GitHub 이슈 등록] --> E[개발] --> F[자동 QA]
     end
-    C -->|설계 승인| D
-    F -->|사람 수동 테스트| H[완료]
-    H -.->|증상 보고| F
+    G1 -->|설계 승인| G2
+    G2 -->|사람 수동 테스트| H[완료]
+    H -.->|증상 보고| G2
 ```
 
 <br>
